@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #222;
+  line-height: 1.5;
+}
+
+.header {
+  background: #121212;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px 10px;
+  position: relative;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+/* Navigation */
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none; /* Hidden by default, toggled with JS */
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.nav-list li {
+  width: 100%;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  display: block;
+  padding: 10px 8px;
+  border-radius: 8px;
+}
+
+.nav-list a:hover {
+  background: #333;
+}
+
+/* Menu Toggle */
+.menu-toggle {
+  font-size: 1.8rem;
+  cursor: pointer;
+  margin-top: 6px;
+  display: block;
+}
+
+/* Show menu when .open class is added */
+.nav-list.open {
+  display: flex;
+}
+
+/* Hero Section */
+.hero {
+  background: #f4f4f4;
+  padding: 24px 0 16px 0;
+  text-align: center;
+}
+
+.hero-img {
+  width: 90vw;
+  max-width: 320px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.10);
+  margin-bottom: 14px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  margin: 10px 0 0 0;
+  font-size: 1.3rem;
+}
+
+.cta-button {
+  display: block;
+  width: 100%;
+  background: #121212;
+  color: #fff;
+  padding: 13px 0;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* Content Section */
+.content {
+  margin: 18px 12px;
+  padding: 14px;
+  background: #f8f8f8;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.content h2 {
+  margin-top: 0;
+}
+
+/* Footer */
+.footer {
+  background: #1a1a1a;
+  color: #e0e0e0;
+  padding: 15px 0 12px 0;
+  text-align: left;
+}
+
+.footer p {
+  margin: 0 0 6px 0;
+  font-size: 0.95rem;
+  padding-left: 8px;
+}
+
+.social-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 4px;
+  padding-left: 8px;
+}
+.social-links a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 1.05rem;
+}
+.social-links a:hover { text-decoration: underline; }
